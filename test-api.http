@@ -1,0 +1,36 @@
+### PATIENT  - Suresh Babu
+POST http://localhost:5000/patients/add
+Content-Type: application/json
+
+{
+  "name": "Suresh Babu",
+  "age": 38,
+  "phone": "9876501229",
+  "disease": "Cold",
+  "password": "123456"
+}
+
+
+
+### START CONSULTATION 
+
+PUT http://localhost:5000/queue/start/6a9eadf9a8ed42c495b508d3
+
+
+
+
+### COMPLETE CONSULTATION 
+
+PUT http://localhost:5000/queue/complete/6a9eadf9a8ed42c495b508d3
+
+
+
+### START CONSULTATION 
+
+PUT http://localhost:5000/queue/start/6abafcaed1db039372a3608f
+
+
+
+### COMPLETE CONSULTATION 
+
+PUT http://localhost:5000/queue/complete/ 6abafcaed1db039372a3608f
